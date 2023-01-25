@@ -1,0 +1,27 @@
+{
+  "name": "Mini Thesaurus",
+  "version": "1.0.0",
+  "description": "Thesaurus extension powered by 'Free Dictionary API'.",
+  "manifest_version": 3,
+  "author": "Sara Blinn",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Mini Thesaurus"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "styles/bootstrap-5.2.3-dist/css/bootstrap.min.css",
+        "styles/main.css"
+      ],
+      "js": [
+        "scripts/jquery-3.6.3.min.js",
+        "styles/bootstrap-5.2.3-dist/js/bootstrap.min.js",
+        "scripts/main.js"
+      ],
+      "matches": [
+        "http://*/*"
+      ]
+    }
+  ]
+}

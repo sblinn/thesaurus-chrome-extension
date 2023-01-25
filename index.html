@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Mini Thesaurus</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="styles/bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles/main.css" />
+
+</head>
+
+<body>
+    <div class="container mt-1">
+        <h1>Mini Thesaurus</h1>
+        <div class="container d-flex flex-column">
+            <div class="input-group my-1 mx-0">
+
+                <form>
+                    <ul id="errorMessages" class="list-group m-1"></ul>
+                    <input type="text" id="wordInput" class="form-control mt-0 mb-1" placeholder="Get Synonyms">
+                    <button type="submit" id="searchBtn" class="btn btn-sm btn-outline-secondary m-1">
+                        search
+                    </button>
+                    <button type="submit" id="resetBtn" class="btn btn-sm btn-outline-secondary m-1">
+                        reset
+                    </button>
+                </form>
+
+                <div id="searchResultsDiv" class="container p-2 mt-2">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+	<!-- Scripts -->
+    <script src="scripts/jquery-3.6.3.min.js"></script>
+    <script src="styles/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+	<script src="scripts/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+
+body {
+    min-width: 300px;
+    min-height: 400px;
+    max-width: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+
+.bold-def {
+    font-size: small;
+    font-weight: bold;
+}
+
+.italic-def {
+    font-size: small;
+    font-style: italic;
+}
+
+.synonym-list {
+    font-size: x-small;
+}
+
+#errorMessages {
+    font-size: x-small;
+}
+
+#searchResultsDiv {
+    
+}
+
+    #searchResultsDiv p {
+        margin-bottom: 0.2em
+    }
